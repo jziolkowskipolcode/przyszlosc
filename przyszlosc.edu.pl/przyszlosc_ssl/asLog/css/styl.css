@@ -1,0 +1,324 @@
+/* 
+    Document   : styl
+    Created on : 2011-03-14, 09:13:32
+    Author     : Kuba
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+html {overflow-y: scroll;}
+body {
+padding:15px 0 0 0;
+font:76% tahoma, verdana, sans-serif;
+background:#6fa5e8;
+color:#303030;
+text-align:center;
+}
+
+table { border: none }    /* remove bottom border */
+
+a {
+color:#303030;
+text-decoration:none;
+border-bottom:1px dotted #505050;
+}
+
+a:hover {
+color:#303030;
+text-decoration:none;
+border-bottom:1px solid #505050;
+}
+
+h1 {
+margin:0 10px 20px 0;
+font-size:2.8em;
+font-weight:normal;
+}
+
+h2 {
+margin:0 0 12px 0;
+font-size:1.6em;
+font-weight:normal;
+}
+
+h3 {
+margin:0 0 10px 0;
+font-size:1.4em;
+font-weight:normal;
+}
+
+p {
+margin:0 0 15px 0;
+line-height:1.5em;
+text-align:left;
+}
+
+a img {
+border:0;
+}
+
+/* Główny pojemnik */
+
+#pojemnik {
+text-align:left;
+margin-left: auto;
+margin-right: auto;
+width:730px;
+padding:5px 20px 20px 20px;
+background:#ffffff;
+border-style:solid;
+border-width:1px;
+-moz-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 1em;
+behavior: url(style/border-radius.htc);
+
+}
+
+
+#logo {
+
+height: 170px;
+background: url(logo.png)  top left no-repeat;
+margin:15px auto 0 0;
+}
+
+#logo h1 a {
+color:#505050;
+border:none;
+margin: auto auto auto 170px;
+}
+
+
+#logo h1 a:hover {
+color:#303030;
+text-decoration:none;
+border:none;
+}
+
+/* nag-tab menu */
+
+#naglowek {
+
+margin:10px auto -12px auto;
+font-size:0.8em;
+width:720px;
+
+}
+
+#naglowek  a {
+color:#303030;
+text-decoration:none;
+
+}
+
+#naglowek a:hover {
+color:#ffffff;
+text-decoration:none;
+
+
+}
+
+#naglowek p {
+text-align:right;
+color:#808080;
+}
+
+.nag-tab {
+padding:4px 5px 3px 5px;
+margin:0 0 0 4px;
+text-decoration:none;
+background:#ffffff ;
+border:solid 1px;
+color:#808080;
+
+}
+
+.nag-tab:hover {
+background:#000000 ;
+border: solid 1px;
+color:#505050;
+text-decoration:none;
+}
+
+
+.nag-tab-aktywny {
+padding:4px 5px 3px 5px;
+margin:0 0 0 4px;
+color:#505050;
+text-decoration:none;
+background:#ffffff url(./images/rog2.gif) top right no-repeat;
+
+}
+
+.nag-tab-aktywny:hover {
+text-decoration:none;
+
+}
+
+.iframe{
+   min-height:800px;height:auto !important;height:800px;
+    
+}
+
+.tab-pob {
+padding:4px 5px 3px 5px;
+margin:0 0 0 4px;
+text-decoration:none;
+background:#ffffff ;
+color:#606060;
+border:none;
+}
+
+.tab-pob:hover {
+background:#495677;
+color:#ffffff;
+text-decoration:none;
+}
+
+
+/* m-menu-tab menu */
+
+#m-menu {
+clear:both;
+}
+
+.m-menu-tab {
+padding:4px 8px 4px 8px;
+margin:0 0 4px 0;
+text-decoration:none;
+font-size:1.1em;
+background:#e0e0e0 ;
+border-bottom:1px solid #ffffff;
+border-left:1px solid #ffffff;
+}
+
+.m-menu-tab:hover {
+text-decoration:none;
+background:#d0d0d0 ;
+border-bottom:1px solid #ffffff;
+}
+
+.m-menu-tab-aktywny {
+padding:4px 8px 5px 8px;
+color:#ffffff;
+margin:0 0 5px 0;
+font-size:1.1em;
+text-decoration:none;
+background:#505050 ;
+}
+
+.m-menu-tab-aktywny:hover {
+text-decoration:none;
+color:#ffffff;
+}
+
+
+/* Main content */
+
+#main {
+
+/*width:550px;*/
+float:right;
+padding:0 15px 0 0;
+margin: 3px 0 0 5px;
+text-align: justify;
+
+}
+#main  p{
+text-align: top;
+
+}
+
+/* Sidebar */
+
+#sidebar {
+width:130px;
+float:left;
+
+}
+#sidebar a {
+color:#303030;
+text-decoration:none;
+border-bottom:none;
+}
+#sidebar p {
+font-size:0.9em;
+line-height:1.3em;
+margin:0 0 15px 0;
+}
+
+/* Footer */
+
+#footer {
+text-align:left;
+clear:both;
+background:#ffffff;
+padding:10px;
+
+}
+
+#footer a {
+color:#808080;
+}
+
+#footer a:hover {
+color:#303030;
+}
+
+#footer p {
+color:#808080;
+font-size:1.1em;
+line-height:1.3em;
+margin:15px 0 0 0;
+padding:0;
+}
+
+/* Various classes */
+
+.photo {
+padding:2px;
+margin:0 0 8px 0;
+background-color:#f0f0f0;
+border:1px solid #d8d8d8;
+}
+
+.right {
+margin-top:-8px;
+text-align:right;
+}
+
+.block {
+background:#f0f0f0;
+padding:10px;
+}
+
+.sidelink {
+text-align:left;
+display:block;
+width:130px;
+background:#f0f0f0 ;
+padding:3px 4px 3px 8px;
+margin:5px 10px 5px 0;
+border:none;
+}
+
+.sidelink:hover {
+background:#b0d9ff;
+text-decoration:none;
+border:none;
+}
+
+.hide {
+display:none;
+}
+

@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^([0-9]+).html$ /Przyszlosc/index.php?tryb=$1 [L]
+RewriteRule ^([0-9]+)-([0-9]+).html$ /Making/index.php?jeden=$1&dwa=$2 [L] 

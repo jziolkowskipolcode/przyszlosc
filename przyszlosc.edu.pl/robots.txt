@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /przyszlosc_ssl
+Disallow: /asLog
+Disallow: /sekr

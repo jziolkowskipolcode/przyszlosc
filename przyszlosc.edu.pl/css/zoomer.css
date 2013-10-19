@@ -1,0 +1,6 @@
+
+ul.thumb {float: left;list-style: none;margin: 0; padding: 10px;width: 450px;}
+ul.thumb li {margin: 0; padding: 5px;float: left;position: relative;width: 130px;height: 130px;}
+ul.thumb li img {width: 130px; height: 130px;border: 1px solid #ddd;padding: 5px;background: #f0f0f0;position: absolute;left: 0; top: 0;-ms-interpolation-mode: bicubic; }
+ul.thumb li img.hover {margin-top:15px;border: none;}
+.title{position:absolute;width:380px;height:35px;margin:0;font-weight:900;padding:17px 0 0 0;text-align:center; color: #fff; }
